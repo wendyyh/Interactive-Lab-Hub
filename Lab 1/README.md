@@ -93,16 +93,16 @@ Adding multimodal cues could make the device harder to ignore without being disr
 
 ## Part C. Prototype the device
 
-**Feedback on Tinkerbelle**
+**Feedback on Tinkerbell**
 
-We find that Tinkerbelle is useful for experimenting with color changes on our phone screens. However the tool does not allow us to control the brightness or intensity of the light, which makes it difficult to show subtle differences between a soft reminder and a strong alert. In addition, the colors available are very single and flat, and there’s no option for gradients.
+We find that Tinkerbell is useful for experimenting with color changes on our phone screens. However the tool does not allow us to control the brightness or intensity of the light, which makes it difficult to show subtle differences between a soft reminder and a strong alert. In addition, the colors available are very single and flat, and there’s no option for gradients.
 
 
 ## Part D. Wizard the device
 
 **Device Set-up**
 
-To wizard the device, we decided to use the Tinkerbelle tool. One of us would remotely control the light changes, while the other played the actor, sitting in the chair and intentionally trying different unhealthy postures (leg shaking, crossing legs, slouching, prolonged sitting) to simulate triggers. This setup allowed us to stage the interaction where the light changes appeared in sync with the actor’s behaviors, even though the sensing was controlled manually. 
+To wizard the device, we decided to use the Tinkerbell tool. One of us would remotely control the light changes, while the other played the actor, sitting in the chair and intentionally trying different unhealthy postures (leg shaking, crossing legs, slouching, prolonged sitting) to simulate triggers. This setup allowed us to stage the interaction where the light changes appeared in sync with the actor’s behaviors, even though the sensing was controlled manually. 
 
 View our set up video at: https://youtube.com/shorts/vQvMvgtc-14?feature=share
 
