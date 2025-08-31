@@ -35,7 +35,7 @@ _Activity:_ The student/worker sits in the chair while working. As they adopt di
 
 _Goals:_ The goal for the main player who sits on the interactive healthy chair is to maintain a good sitting posture and avoid unhealthy habits. The surrounding people could possibly support or monitor the main player’s behavior when noticing the light cue. 
 
-![Storyboard #1-4: Healthy Chair]()
+![Storyboard #1-4: Healthy Chair](chair_storyboard.jpg)
 
 ### Plan 2. Medicine Box Reminder
 
@@ -49,7 +49,7 @@ _Activity:_ The activity begins when at the scheduled time, the pillbox glows re
 
 _Goals:_ The goal of the users is to stay on top of their medication schedule without being interrupted. The pillbox’s goal is to provide a clear and reliable signal using light, and to acknowledge the action once the pill is taken. The interaction ensures a gentle but effective reminder system that blends seamlessly into the student’s daily routine.
 
-![Storyboard #5: Medicine Box Reminder]()
+![Storyboard #5: Medicine Box Reminder](pillbox_storyboard.jpg)
 
 ### Plan 3. Student ID Card Reminder
 
@@ -61,7 +61,7 @@ _Activity:_ When students are rushing to leave for class and forget to pick up t
 
 _Goals:_ The goal of each player is to avoid the inconvenience of being locked out or unable to access the building because of a forgotten ID card. The device itself is to provide timely reminders that fit into the natural flow of leaving and returning.
 
-![Storyboard #6: Student ID Card Reminder]()
+![Storyboard #6: Student ID Card Reminder](cardreminder_storyboard.jpg)
 
 ### Plan 4. Stress Ball
 
@@ -73,7 +73,7 @@ _Activity:_ The stress ball rests idle on the desk. When feeling stressed, the u
 
 _Goals:_ The goal of the user is to find stress relief, stay calm and focused without breaking workflow too much. The stress ball encourages healthy stress release and helps relieve the user’s mood through light feedback. The surrounding people may gain an implicit understanding of the user’s stress level. 
 
-![Storyboard #7: Stress Ball]()
+![Storyboard #7: Stress Ball](stressball_storyboard.jpg)
 
 ### Feedback
 During the lab, we mainly focused on exploring Tinkerbell and brainstorming potential ideas together. Thus, we did not get a chance to gather feedback from classmates. We asked some friends later, they felt that the **Healthy Chair** idea was the most attractive product they would like to use if it became real.
@@ -104,7 +104,7 @@ We find that Tinkerbelle is useful for experimenting with color changes on our p
 
 To wizard the device, we decided to use the Tinkerbelle tool. One of us would remotely control the light changes, while the other played the actor, sitting in the chair and intentionally trying different unhealthy postures (leg shaking, crossing legs, slouching, prolonged sitting) to simulate triggers. This setup allowed us to stage the interaction where the light changes appeared in sync with the actor’s behaviors, even though the sensing was controlled manually. 
 
-![set-up video]()
+![set-up video](setup_video.mov)
 
 **Design Iteration: Goal Changing**
 
@@ -119,19 +119,19 @@ A main concern is visibility since the light change must be easily noticed even 
 
 **Cloud-shaped Desk Decorator**
 
-![Cloud-shaped Desk Decorator Costume Sketch]()
+![Cloud-shaped Desk Decorator Costume Sketch](costume_cloud.png)
 
 The cloud decorator is an attractive object on the desk even when idle. Its shape and materials naturally diffuse light, ensuring color changes are soft yet highly visible in the user’s direct line of sight. The light feels less like a warning system and more like a calming/playful presence.
 
 **Light Strip around the Chair**
 
-![Light Strip around the Chair Costume Sketch]()
+![Light Strip around the Chair Costume Sketch](costume_papertube.png)
 
 A light strip around the sitting area could provide subtle, body-centered feedback. With the lighting integrated into the chair, the user can see the glow peripherally. Yet it might be hard for users to notice the light change during the work.
 
 **Paper Desk Lamp**
 
-![Paper Desk Lamp Costume Sketch]()
+![Paper Desk Lamp Costume Sketch](costume_lamp.png)
 
 A paper lamp could be used as a practical light source. It creates an opportunity for the device to be both functional furniture and health-supporting technology.
 
@@ -140,12 +140,12 @@ A paper lamp could be used as a practical light source. It creates an opportunit
 We’ve decided to pick the cloud form as the final design in consideration of its soft, approachable appearance and its ability to diffuse light evenly, making color changes both noticeable and pleasant to look at. Also, its compact form makes it flexible to place in different environments, such as room desk and office desk, while remaining safe and unobtrusive. 
 
 The material we would use for the cloud-form costume for the device is cotton stuffing, which creates a soft and fluffy texture that naturally diffuses the phone light inside.
-![Cloud Form Costume Material Image]()
+![Cloud Form Costume Material Image](costume_material.JPG)
 
 
 ## Part F. Record
 
-![Final Prototyped Interaction Video]()
+![Final Prototyped Interaction Video](final_prototyped_interaction.mov)
 
 
 # Staging Interaction, Part 2 
