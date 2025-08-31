@@ -104,7 +104,7 @@ We find that Tinkerbelle is useful for experimenting with color changes on our p
 
 To wizard the device, we decided to use the Tinkerbelle tool. One of us would remotely control the light changes, while the other played the actor, sitting in the chair and intentionally trying different unhealthy postures (leg shaking, crossing legs, slouching, prolonged sitting) to simulate triggers. This setup allowed us to stage the interaction where the light changes appeared in sync with the actor’s behaviors, even though the sensing was controlled manually. 
 
-![set-up video](setup_video.mov)
+View our set up video at: https://github.com/wendyyh/Interactive-Lab-Hub/blob/Fall2025/Lab%201/final_prototyped_interaction.mov
 
 **Design Iteration: Goal Changing**
 
@@ -145,7 +145,7 @@ The material we would use for the cloud-form costume for the device is cotton st
 
 ## Part F. Record
 
-![Final Prototyped Interaction Video](final_prototyped_interaction.mov)
+View our final prototyped interaction video at: https://github.com/wendyyh/Interactive-Lab-Hub/blob/Fall2025/Lab%201/setup_video.mov
 
 
 # Staging Interaction, Part 2 
