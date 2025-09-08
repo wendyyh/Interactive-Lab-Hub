@@ -76,7 +76,7 @@ _Goals:_ The goal of the user is to find stress relief, stay calm and focused wi
 ![Storyboard #7: Stress Ball](stressball_storyboard.jpg)
 
 ### Feedback
-During the lab, we mainly focused on exploring Tinkerbell and brainstorming potential ideas together. Thus, we did not get a chance to gather feedback from classmates. We asked some friends later, they felt that the **Healthy Chair** idea was the most attractive product they would like to use if it became real.
+During the lab, we mainly focused on exploring Tinkerbelle and brainstorming potential ideas together. Thus, we did not get a chance to gather feedback from classmates. We asked some friends later, they felt that the **Healthy Chair** idea was the most attractive product they would like to use if it became real.
 
 
 ## Part B. Act out the Interaction
@@ -93,16 +93,16 @@ Adding multimodal cues could make the device harder to ignore without being disr
 
 ## Part C. Prototype the device
 
-**Feedback on Tinkerbell**
+**Feedback on Tinkerbelle**
 
-We find that Tinkerbell is useful for experimenting with color changes on our phone screens. However the tool does not allow us to control the brightness or intensity of the light, which makes it difficult to show subtle differences between a soft reminder and a strong alert. In addition, the colors available are very single and flat, and there’s no option for gradients.
+We find that Tinkerbelle is useful for experimenting with color changes on our phone screens. However the tool does not allow us to control the brightness or intensity of the light, which makes it difficult to show subtle differences between a soft reminder and a strong alert. In addition, the colors available are very single and flat, and there’s no option for gradients.
 
 
 ## Part D. Wizard the device
 
 **Device Set-up**
 
-To wizard the device, we decided to use the Tinkerbell tool. One of us would remotely control the light changes, while the other played the actor, sitting in the chair and intentionally trying different unhealthy postures (leg shaking, crossing legs, slouching, prolonged sitting) to simulate triggers. This setup allowed us to stage the interaction where the light changes appeared in sync with the actor’s behaviors, even though the sensing was controlled manually. 
+To wizard the device, we decided to use the Tinkerbelle tool. One of us would remotely control the light changes, while the other played the actor, sitting in the chair and intentionally trying different unhealthy postures (leg shaking, crossing legs, slouching, prolonged sitting) to simulate triggers. This setup allowed us to stage the interaction where the light changes appeared in sync with the actor’s behaviors, even though the sensing was controlled manually. 
 
 View our set up video at: https://youtube.com/shorts/vQvMvgtc-14?feature=share
 
@@ -150,20 +150,90 @@ View our final prototyped interaction video at: https://youtube.com/shorts/rMiUT
 
 # Staging Interaction, Part 2 
 
-This describes the second week's work for this lab activity.
+## Part A. Plan
 
+### Feedback
 
-## Prep (to be done before Lab on Wednesday)
+**Feedback from Professor Wendy Ju:**
+Professor Ju noted that there is not yet a clear mapping between the sitting posture problem and the chosen cloud form. The cloud metaphor seems more connected to emotional or mood-related communication (e.g., glowing blue when a friend is sad) rather than posture correction. She suggested reconsidering the format to make it more meaningfully tied to posture feedback.
 
-You will be assigned three partners from other groups. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
+**Feedback from peer reviews:**
+One interesting comment we received is that “how public the warning cue is,” as we briefly mentioned in Lab 1a, could be an important factor to take into consideration. We realized that while public signals can create social accountability, they can also embarrass the user. This highlights the need to carefully design for different levels of visibility and privacy for users to customize.
 
-\*\***Summarize feedback from your partners here.**\*\*
+### Redesign Plan
 
-## Make it your own
+After gathering feedback, we decided to switch the costume from a cloud to a chair-like desk robot. This new form is more aligned with the concept of posture correction and provides a clearer mapping between the device’s signals and the user’s sitting behavior. We also improved the alert system by adding sound and vibration, giving users stronger and more intuitive signifiers. Another improvement is offering users the choice to tap the robot to shut down the interaction when they don’t need reminders. In that case, the robot remains as an emotional companion, providing presence and comfort rather than corrective feedback.
 
-Do last week’s assignment again, but this time: 
-1) It doesn’t have to (just) use light, 
-2) You can use any modality (e.g., vibration, sound) to prototype the behaviors! Again, be creative! Feel free to fork and modify the tinkerbell code! 
-3) We will be grading with an emphasis on creativity. 
+**Storyboard #1: Long-time Sitting**
 
-\*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+_Setting:_ The interaction takes place in personal room, study space, or workplace, where the user is working at a desk for an extended period of time.
+
+_Players:_ The main player would be the chair user, who is focused on studying/working but tends to remain seated for too long. The chair sensor would detect prolonged sitting, and the desk robot would react with feedback through light, facial expressions, and subtle sound cues.
+
+_Activity:_ The user sits and works with good posture. After a long time, the chair sensor detects continuous sitting and signals the desk robot. The robot changes its glow from blue to yellow with a pained expression. When the user ignores the warning, the chair begins to vibrate gently as a secondary reminder. Finally, the user notices, stands up to stretch, and the robot returns to blue with a happy expression.
+
+_Goals:_ The goal is to remind the user to take breaks and avoid unhealthy long-term sitting.
+
+![Storyboard #2-1: Long-time Sitting](longtimesitting_storyboard.png)
+
+**Storyboard #2: Ignoring the Warning**
+
+_Setting:_ The interaction may happen in a classroom, library, or at home during study/work sessions.
+
+_Players:_ The primary player is the person sitting on the chair, receiving cues from the desktop robot. The secondary players could be classmates, roommates or colleagues nearby who may notice the robot’s glow and expressions.
+
+_Activity:_ The user works at their desk while the robot companion sits nearby. As the user adopts unhealthy postures, the chair’s sensor detects changes and the robot responds. As the user ignores the robot’s red glow and sad face and remains in an unhealthy posture, the robot plays a gentle audio cue to draw the user's attention. Once the user corrects their posture and sits normally again, the robot’s face shifts to a smile and the glow turns blue.
+
+_Goals:_ The goal for the user is to maintain good posture, reduce unhealthy sitting habits, and receive gentle but clear feedback. The robot aims to encourage healthy sitting by providing both visual and auditory cues, while making the feedback feel more personable and engaging. People nearby may observe the robot’s reactions and help reinforce posture correction.
+
+![Storyboard #2-2: Ignoring the Warning](ignoringwarning_storyboard.png)
+
+**Storyboard #3: Social Setting**
+
+We realized the awkwardness might arise when the posture reminder activates in a shared space. If the robot glows red in front of others, the user may feel embarrassed. To address this, we designed an option that lets the user tap once to silence the warning (keeping the robot blue) or tap twice to turn the glow/robot off completely. This gives the user more control and flexibility, balancing social comfort with posture awareness.
+
+_Setting:_ The interaction may happen in a shared workspace with multiple people present.
+
+_Players:_ The primary player is The student who receives the posture warning. Other players include the desk robot that provides light feedback and other people in the room who may notice the warning.
+
+_Activity:_ The robot glows red to signal unhealthy posture, making the user feel awkward. The user may tap the robot once to silence the warning (change it to the default blue glow) or tap twice to turn the glow/robot off completely.
+
+_Goals:_ The goal is to allow user to manage the visibility of feedback in social situations, reduce embarrassment, and provide flexibility while supporting posture awareness.
+
+![Storyboard #2-3: Social Setting](socialsetting_storyboard.png)
+
+## Part B-D. Acting, Prototyping, and Wizarding the device
+
+Since Tinkerbelle worked well in Part 1a for controlling light color changes, we decided to continue using it (Tinkerbelle set-up video: https://youtube.com/shorts/vQvMvgtc-14?feature=share). For the additional modalities of robot expressions, audio cues, and vibration, we developed different approaches to simulate them during wizarding:
+
+Robot’s expression: We created a set of hand-drawn paper face cards that can be manually inserted and swapped. With the light shining through, people can clearly see changes in the light color and the robot’s expressions.
+![Robot's Expression Card](expression_card.png)
+
+Audio cues: While Tinkerbelle includes some built-in sounds, we found none that were gentle enough for a subtle, non-disruptive warning. Instead, we used a separate device to play soft chimes in sync with the actor adopting an unhealthy posture.
+
+View our audio set-up video at: https://youtube.com/shorts/5mVurf53QhA?feature=share 
+
+Vibration: To simulate vibration feedback, we placed a phone in vibration mode on the chair. By making calls to the phone, we could trigger vibrations remotely and in real time as part of the staged interaction.
+
+View our vibration set-up video at: https://youtube.com/shorts/DQBPNYUqo4M?feature=share 
+
+This setup allowed us to effectively wizard all modalities, including light, expression, sound, and vibration, making the device respond naturally to the actor’s posture changes.
+
+## Part E. Costume the device
+
+We used a foam roller as the outer shell. The foam was easy to shape into the form of a small chair-like robot. Also, such material does not block the light diffusion from the phone, allowing the glow to remain visible. To convey the robot’s facial expressions, we would use hand-drawn semi-transparent paper cards slotted in the foam.
+
+![Robot Costume](costume_robot.png)
+
+For the vibration element, we would place the phone on the chair itself, underneath a thin felt blanket. The felt fabric concealed the phone visually while still allowing the vibration feedback to be sensed clearly by the actor. This helps keep the vibration experience body-centered (linked directly to sitting posture), while the robot remains a separate light/sound companion on the desk.
+
+![Chair Costume](costume_chair.png)
+
+## Part F. Record
+
+**Unhealthy posture scenario:** https://youtube.com/shorts/bkxQC-ossbo 
+
+**Long-time sitting scenario:** https://youtube.com/shorts/X-NicvvVHO4 
+
+*In this video, we also demonstrate how users interact with the robot to turn off the alert system and the device.
+
