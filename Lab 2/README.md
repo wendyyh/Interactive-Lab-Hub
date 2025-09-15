@@ -191,6 +191,18 @@ Pro Tip: Using tools like [code-server](https://coder.com/docs/code-server/lates
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
+### Idea 1: Pet Clock (Feeding Time Reminder)
+The pet clock would visualize pet feeding cycles. A cat animation appears as it eats from a food bin that gradually empties over time. When the bin is empty, it signals feeding time. Pressing a button refills the bin and restarts the cycle. This design aims to help timekeeping to daily routines of pet care.
+![pet clock sketch](lab2_idea1.png)
+
+### Idea 2: Coffee Cup Clock
+The coffee cup clock idea takes the form of a coffee cup slowly filling with coffee as time passes. The buttons allow the user pause or refill another cup.
+![coffee cup clock sketch](lab2_idea2.png)
+
+### Idea 3: Tide Clock
+The tide clock would use a rising and falling tide animation along with weather change to represent time across the day.
+![tide clock sketch](lab2_idea3.png)
+
 
 # Prep for Part 2
 
