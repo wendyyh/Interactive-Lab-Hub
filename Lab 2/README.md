@@ -1,4 +1,6 @@
 # Interactive Prototyping: The Clock of Pi
+**Lab2a: Individual Work**
+**Lab2b Collaborators: Weicong Hong (wh528), Feier Su (fs495), Sirui Wang (sw2449), Jully Li (hl2568)**
 **NAMES OF COLLABORATORS HERE**
 
 Does it feel like time is moving strangely during this semester?
@@ -183,6 +185,13 @@ Now you should be able to edit python scripts with Thonny on your Pi.
 Option 3. A nowadays often preferred method is to use Microsoft [VS code to remote connect to the Pi](https://www.raspberrypi.com/news/coding-on-raspberry-pi-remotely-with-visual-studio-code/). This gives you access to a fullly equipped and responsive code editor with terminal and file browser.  
 
 Pro Tip: Using tools like [code-server](https://coder.com/docs/code-server/latest) you can even setup a VS Code coding environment hosted on your raspberry pi and code through a web browser on your tablet or smartphone! 
+
+### screen_clock.py Output
+
+Edited file screen_clock.py: https://github.com/wendyyh/Interactive-Lab-Hub/blob/Fall2025/Lab%202/screen_clock.py
+
+![screen_clock.py Output](lab2_partd.JPG)
+
 
 ## Part E. Now moved to Lab2 Part 2.
 
