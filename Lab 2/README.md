@@ -231,7 +231,7 @@ To give users flexibility, the clock offers two modes:
 - Play Mode — the music for the current minute plays (Sound Output).
 - Pause Mode — the clock advances silently, simply showcasing the featured track.
 
-<img src="proj_docs/part1_sketch.png" alt="skech" width="600"/>
+![vinyl of clock sketch](sketch_vinyloftime.png)
 
 _(Thanks to Jully for drawing the sketch!)_
 
