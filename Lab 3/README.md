@@ -82,6 +82,12 @@ You can also play audio files directly with `aplay filename`. Try typing `aplay 
 \*\***Write your own shell file to use your favorite of these TTS engines to have your Pi greet you by name.**\*\*
 (This shell file should be saved to your own repo for this lab.)
 
+Shell file: https://github.com/wendyyh/Interactive-Lab-Hub/blob/Fall2025/Lab%203/speech-scripts/name.sh
+
+Add execute permission before run `./name.sh` in speech-scripts folder
+```bash
+chmod +x name.sh
+```
 ---
 Bonus:
 [Piper](https://github.com/rhasspy/piper) is another fast neural based text to speech package for raspberry pi which can be installed easily through python with:
@@ -146,6 +152,26 @@ and
 python faster_whisper_try.py
 ```
 \*\***Write your own shell file that verbally asks for a numerical based input (such as a phone number, zipcode, number of pets, etc) and records the answer the respondent provides.**\*\*
+
+Shell file: https://github.com/siruiii/Interactive-Lab-Hub/blob/f60a190fbbe2c7a8e6154d53bfbb73955c6a41fb/Lab%203/speech-scripts/zipcode.sh
+
+Download the voice files before run `./zipcode.sh` in speech-scripts folder
+```bash
+# Create voices directory if it doesn't exist
+mkdir -p ~/.local/share/piper-tts/voices/
+
+# Download the voice files
+cd ~/.local/share/piper-tts/voices/
+
+# Download both the model (.onnx) and config (.json) files
+wget https://github.com/rhasspy/piper/releases/download/2023.11.14-2/en_US-lessac-medium.onnx
+wget https://github.com/rhasspy/piper/releases/download/2023.11.14-2/en_US-lessac-medium.onnx.json
+```
+
+Play the recorded zipcode audio file `zipcode.wav`
+```bash
+aplay zipcode.wav
+```
 
 ### 🤖 NEW: AI-Powered Conversations with Ollama
 
@@ -213,6 +239,13 @@ answer = ask_ai("How should I greet users?")
 **📖 Complete Setup Guide**: See `OLLAMA_SETUP.md` for detailed instructions, troubleshooting, and advanced usage!
 
 \*\***Try creating a simple voice interaction that combines speech recognition, Ollama processing, and text-to-speech output. Document what you built and how users responded to it.**\*\*
+
+Testing with the web app
+```bash
+export PYTHONIOENCODING=utf-8
+python3 ollama_web_app.py
+```
+![web-app-test](web-app-test.png)
 
 ### Serving Pages
 
@@ -343,12 +376,21 @@ Back-to-back yes or no questions worked, but without a visual/progress cue, the 
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
 
 \*\***Describe if the dialogue seemed different than what you imagined, or when acted out, when it was wizarded, and how.**\*\*
+
 We used the following prompt to interact with the Ollama Voice Assistant in order to act out our script:
 
 **LLM system prompt:** 
 You are a Twenty Questions bot: the user silently thinks of a person, answers only “yes” or “no,” and you ask up to 20 concise, polite, speakable questions (one question at a time) that start broad and then narrow based on their answers to identify the person within the limit (you win if you guess correctly within 20; otherwise the user wins).
 
 **How we interact with Ollama:**
+Source code: https://github.com/siruiii/Interactive-Lab-Hub/blob/f60a190fbbe2c7a8e6154d53bfbb73955c6a41fb/Lab%203/ollama/test.py
+
+We revised the `ollama_web_app.py` and tested the interaction by running `test.py` in ollama folder
+```bash
+cd ollama
+source ollama_venv/bin/activate
+python3 test.py
+```
 <p align="center">
   <a href="https://www.youtube.com/watch?v=MWF14AGxWc4" target="_blank">
     <img src="https://img.youtube.com/vi/MWF14AGxWc4/hqdefault.jpg" alt="Watch the demo" width="600">
@@ -414,6 +456,7 @@ Answer the following:
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
 \*\**your answer here*\*\*
+
 
 
 
