@@ -1,0 +1,1 @@
+echo "Hi Wendy Hong" | festival --tts
