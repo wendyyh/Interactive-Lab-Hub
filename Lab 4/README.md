@@ -17,6 +17,9 @@
 
 ## Lab 4 Deliverables
 
+**COLLABORATORS: Jully Li (hl2568), Weicong Hong (wh528), Feier Su (fs495), Sirui Wang (sw2449)**
+
+
 ### Part 1 (Week 1)
 **Submit the following for Part 1:**  
 *️⃣ **A. Capacitive Sensing**
