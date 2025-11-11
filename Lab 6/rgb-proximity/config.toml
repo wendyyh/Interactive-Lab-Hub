@@ -1,0 +1,17 @@
+mqtt_host = "localhost"
+mqtt_port = 1883
+mqtt_base_topic = "rgb/proximity"
+
+[channels]
+pi_red = "R"
+pi_green = "G"
+pi_blue = "B"
+
+fallback_R = 0
+fallback_G = 0
+fallback_B = 0
+
+near_cm = 5
+far_cm  = 80
+invert = false
+stale_after_seconds = 5.0
