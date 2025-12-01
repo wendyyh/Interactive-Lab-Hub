@@ -25,6 +25,7 @@ The installation creates an intimate, collective experience of shared reflection
 
 <details>
 <summary><strong>Previous Object Journal Dock Idea (click to expand)</strong></summary>
+
 ### Big Idea
 
 #### Object Journal Dock — Tangible Memory Device
