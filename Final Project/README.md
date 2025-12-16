@@ -95,6 +95,13 @@ The proximity sensor was connected to the Raspberry Pi using a Qwiic cable. The 
 
 
 ### 2. Major Components
+#### Fortune Cookie Quotes
+We designed and conducted a survey gathering the quotes/messages from Cornell Tech Community. We sent it through the WhatsApp and Slack Channels:
+
+The survey we sent out: https://docs.google.com/forms/d/e/1FAIpQLScC0TNDbWO2k46hP5G_KslvqWoStc4n5jWPhtOBe9JrEsa58w/viewform?usp=header
+
+The quotes we gathered: https://docs.google.com/spreadsheets/d/1ByaXTgVIr-SSIR2pKf4Vdzvb2Sr2KhHNCAHfORQeKEk/edit?resourcekey=&gid=2030077382#gid=2030077382
+
 #### Fortune Cookie Capsule
 Each cookie contains a unique QR Code generated randomly by using the website (https://randomqr.com/)
 
@@ -224,7 +231,7 @@ Final thermal printer setup with pre-cut holes for printing fortune quotes.
 </p>
 
 ### Physical Enclosures
-Two major components were used for our final installation. Fortune Cookie which were served as 
+Two major components were used for our final installation: 
 
 #### Fortune Cookies
 <p align="center">
